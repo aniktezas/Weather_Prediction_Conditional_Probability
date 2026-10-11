@@ -1,0 +1,20 @@
+{
+    "dataset_name": "Open-Meteo Observational Meteorological Archive (Pune Region)",
+    "total_records": 3652,
+    "features": [
+        "Date",
+        "MaxTemp",
+        "MinTemp",
+        "TempRange",
+        "Precipitation",
+        "Humidity",
+        "Pressure",
+        "WindSpeed",
+        "RainToday",
+        "RainTomorrow"
+    ],
+    "target_variable": "RainTomorrow (Binary: 0=No Rain, 1=Rain)",
+    "date_range": "2015-01-01 to 2024-12-30",
+    "rain_days_count": 1253,
+    "dry_days_count": 2399
+}
